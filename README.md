@@ -4,7 +4,7 @@
 
 ## 🌟 Introduction
 
-This project aims to perform semantic segmentation on the Railsem19 dataset using the DeepLabV3Plus model. The goal is to classify rail and track as well as detect other railway-related structures to improve object detection performance in various railway environments.
+This project aims to perform semantic segmentation on the Railsem19 dataset using the DeepLabV3Plus model. The goal is to classify rail and track as well as detect other railway-related structures and objects to improve object detection performance in various railway environments.
 
 ## 🏆 Project Goal
 
