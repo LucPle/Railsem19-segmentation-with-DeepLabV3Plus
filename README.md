@@ -22,7 +22,7 @@ This project aims to perform semantic segmentation on the Railsem19 dataset usin
 
 - Dataset used in this project is the Railsem19 dataset.
 - For more information on the dataset, visit: [Railsem19 Dataset](https://www.wilddash.cc/railsem19). 
-- This repository provides a visualization tool that complements existing tools.
+- This repository provides a visualization tool that complements existing tools: **example-vis_quad.py**
 
 ![Thumbnail 2](assets/sample_visualization.png)
 
@@ -75,12 +75,12 @@ python train_single.py --batch-size 4 --num-classes 19
 ```
 In multi GPUs
 ```bash
-$ python -m torch.distributed.launch --nproc_per_node=4 train.py --batch-size 4 --num-classes 19
+python -m torch.distributed.launch --nproc_per_node=4 train.py --batch-size 4 --num-classes 19
 ```
 
 ### Evaluate
 ```bash
-$ python evaluate.py --weight ./saved_model/best.pth --num-classes 19
+python evaluate.py --weight ./saved_model/best.pth --num-classes 19
 ```
 Note: this repository doesn't contain checkpoints.
 
