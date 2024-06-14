@@ -1,0 +1,214 @@
+{
+    "labels": [
+        {
+            "color": [
+                128, 
+                64, 
+                128
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "road", 
+            "readable": "Road"
+        }, 
+        {
+            "color": [
+                244, 
+                35, 
+                232
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "sidewalk", 
+            "readable": "Sidewalk and train platforms"
+        }, 
+        {
+            "color": [
+                70, 
+                70, 
+                70
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "construction", 
+            "readable": "Construction (includes CS wall label)"
+        }, 
+        {
+            "color": [
+                192, 
+                0, 
+                128
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "tram-track", 
+            "readable": "Tram Track (between two rails used for driving on)"
+        }, 
+        {
+            "color": [
+                190, 
+                153, 
+                153
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "fence", 
+            "readable": "Fence"
+        }, 
+        {
+            "color": [
+                153, 
+                153, 
+                153
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "pole", 
+            "readable": "Pole"
+        }, 
+        {
+            "color": [
+                250, 
+                170, 
+                30
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "traffic-light", 
+            "readable": "Traffic Light"
+        }, 
+        {
+            "color": [
+                220, 
+                220, 
+                0
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "traffic-sign", 
+            "readable": "Traffic Sign"
+        }, 
+        {
+            "color": [
+                107, 
+                142, 
+                35
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "vegetation", 
+            "readable": "Vegetation"
+        }, 
+        {
+            "color": [
+                152, 
+                251, 
+                152
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "terrain", 
+            "readable": "Terrain"
+        }, 
+        {
+            "color": [
+                70, 
+                130, 
+                180
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "sky", 
+            "readable": "Sky"
+        }, 
+        {
+            "color": [
+                220, 
+                20, 
+                60
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "human", 
+            "readable": "Human (includes CS person and rider)"
+        }, 
+        {
+            "color": [
+                230, 
+                150, 
+                140
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "rail-track", 
+            "readable": "Rail Track (between two rails used exclusively by rail vehicles to drive on)"
+        }, 
+        {
+            "color": [
+                0, 
+                0, 
+                142
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "car", 
+            "readable": "Car"
+        }, 
+        {
+            "color": [
+                0, 
+                0, 
+                70
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "truck", 
+            "readable": "Trucks, Busses, Caravans, Trailers, Construction Vehicles"
+        }, 
+        {
+            "color": [
+                90, 
+                40, 
+                40
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "trackbed", 
+            "readable": "Trackbed (non-track, non-rail, not drivable (neither road nor sidewalk)"
+        }, 
+        {
+            "color": [
+                0, 
+                80, 
+                100
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "on-rails", 
+            "readable": "Rail vehicles, trains, train wagons, and trams"
+        }, 
+        {
+            "color": [
+                0, 
+                254, 
+                254
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "rail-raised", 
+            "readable": "Metal rail, both rails and guard rails, not drivable by cars"
+        }, 
+        {
+            "color": [
+                0, 
+                68, 
+                63
+            ], 
+            "evaluate": true, 
+            "instances": false, 
+            "name": "rail-embedded", 
+            "readable": "Drivable rails"
+        }
+    ], 
+    "version": 1.0
+}
