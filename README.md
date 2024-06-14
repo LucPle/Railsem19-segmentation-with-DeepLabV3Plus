@@ -4,6 +4,7 @@
 
 - The goal of this project is to perform semantic segmentation on the Railsem19 dataset to classify rail and track, as well as to detect other railway-related structures.
 - This will help evaluate and improve object detection performance in various railway environments.
+- Based on these experiments, a dataset construction plan will be discussed.
 
 ## Model Reference
 
@@ -19,7 +20,9 @@
 
 Three experiments were conducted in this project:
 1. Training only 8 classes excluding the background class.
+    - tram-track, rail-track, traffic-light, traffic-sign, on-rails, rail-raised, rail-embedded, human.
 2. Training only 8 classes including the background class.
+    - Same as above, additionally background.
 3. Training with all labels including the background class.
 
 ## Sample Images
