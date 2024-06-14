@@ -1,12 +1,44 @@
-# DeepLabV3Plus for Beginners
-Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation
+# Railsem19 Semantic Segmentation with DeepLabV3Plus
 
-## Support & Requirements
-- 🔥pytorch >= 0.4.0
-- 🐍python 3.6.5 
-- 📈tensorboardX
+## Project Goal
 
-- multi GPU support!
+- The goal of this project is to perform semantic segmentation on the Railsem19 dataset to classify rail and track, as well as to detect other railway-related structures.
+- This will help evaluate and improve object detection performance in various railway environments.
+
+## Model Reference
+
+- This project uses the DeepLabV3Plus model.
+- For more details on the model, visit the following repository: [DeepLabV3Plus for Beginners](https://github.com/J911/DeepLabV3Plus-for-Beginners).
+
+## Dataset
+
+- The dataset used in this project is the Railsem19 dataset.
+- For more information on the dataset, visit: [Railsem19 Dataset](https://www.wilddash.cc/railsem19).
+
+## Experiments
+
+Three experiments were conducted in this project:
+1. Training only 8 classes excluding the background class.
+2. Training only 8 classes including the background class.
+3. Training with all labels including the background class.
+
+## Sample Images
+
+Below are some sample images from the dataset and the segmentation results:
+
+- 8 classes excluding the background class
+![Sample Image 1](outputs/good_without_background/rs07869.png)
+- 8 classes including the background class.
+![Sample Image 2](outputs/good_background/rs07854.png)
+- All labels including the background class.
+![Sample Image 3](outputs/good_full_labels/rs07855.png)
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/railsem19-semantic-segmentation.git
+   cd railsem19-semantic-segmentation
 
 
 ## Train
