@@ -3,7 +3,7 @@
 ![Thumbnail 1](outputs/good_full_labels/rs07747.png)
 
 ## Notes
-**Important:** This repository does not include a data loader. Sorry for the inconvenience, and I recommend using these results as a reference only.
+**Important:** This repository does not include a data loader. Sorry for the inconvenience, and I strongly recommend using these results as "**a reference only**".
 
 ## 🌟 Introduction
 
