@@ -3,8 +3,12 @@
 ![Thumbnail 1](outputs/good_full_labels/rs07747.png)
 
 ## Notes
-**Important:** This repository does not include a data loader. Sorry for the inconvenience, and I strongly recommend using these results as "**a reference only**".
-
+**Important** <br>
+- (1/16, 2025) This repository does not include a data loader. Sorry for the inconvenience, and I strongly recommend using these results as "**a reference only**".
+- (2/20, 2025) I found some lost codes, such as **a data loader**
+  - To reproduce this repository, ensure the dataset paths match.
+  - Set the ignore labels in the dataloader belongs to task.
+  
 ## 🌟 Introduction
 
 This project aims to perform semantic segmentation on the Railsem19 dataset using the DeepLabV3Plus model. The goal is to classify rail and track as well as detect other railway-related structures and objects to improve object detection performance in various railway environments.
